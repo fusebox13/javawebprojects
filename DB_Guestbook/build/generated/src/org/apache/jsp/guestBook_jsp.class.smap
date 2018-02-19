@@ -1,0 +1,12 @@
+SMAP
+guestBook_jsp.java
+JSP
+*S JSP
+*F
++ 0 guestBook.jsp
+guestBook.jsp
+*L
+1,37:45
+38:82,3
+39,4:85
+*E

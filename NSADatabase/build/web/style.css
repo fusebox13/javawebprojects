@@ -1,0 +1,127 @@
+root { 
+    display: block;
+}
+
+html{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12px;
+}
+body{
+    background-color: black;
+    color: green;
+    
+}
+h3{
+    color: red;
+}
+
+th{
+    text-align: left;
+}
+div.row{
+    clear: both;
+    width:487px;
+    
+}
+
+div.label{
+    float:left;
+    text-align: left;
+    width: 85px;
+
+}
+
+div.form{
+    float:left;
+    width:400px;
+    text-align: left;
+}
+
+div.selectLabel{
+    width:85px;
+    float:left;
+    text-align: left;
+}
+
+div.select{
+    width: 85px;
+    float:left
+    
+}
+
+div.hwLabel{
+    float: left;
+    width: 85px;
+    text-align: left;
+    
+}
+input:focus{
+    outline: black;
+    border-color: greenyellow;
+    box-shadow: 0px 0px 10px greenyellow;   
+}
+select:focus{
+    outline: black;
+    border-color: black;
+    box-shadow: 0px 0px 10px black;
+}
+
+input.hwBox{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12px;
+    float: left;
+    width: 87px;
+    color: green;
+    background-color: black;
+    border-color:green;
+}
+
+input.nameBox{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12px;
+    width: 257px;
+    color: green;
+    background-color: black;
+    border-color: green;
+    
+}
+
+input.button{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12px;
+    background-color: black;
+    color: green;
+    border-color: green;
+}
+
+input.outBox{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12px;
+    background-color: black;
+    color: green;
+    border-color: green;
+    
+}
+
+select.selectBox{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12px;
+    color: green;
+    background-color: black;
+    border-color: green;
+    width: 110px;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 2px;
+    
+    
+}
+
+table{
+    border: none;
+}
+
+hr{
+    border-color:green;
+    
+}

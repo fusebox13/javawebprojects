@@ -1,0 +1,21 @@
+SMAP
+FactorNumber_jsp.java
+JSP
+*S JSP
+*F
++ 0 FactorNumber.jsp
+FactorNumber.jsp
+*L
+1,10:46
+10:56
+11:57,6
+12:63
+13,2:65
+14,9:67
+23:76,3
+24:79
+25,3:81
+27,3:84
+30,9:88
+38,6:97
+*E

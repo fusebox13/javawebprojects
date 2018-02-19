@@ -1,0 +1,17 @@
+SMAP
+badexample_jsp.java
+JSP
+*S JSP
+*F
++ 0 badexample.jsp
+badexample.jsp
+*L
+1,11:45
+11,11:56
+21,6:67
+26,6:73
+31,5:79
+35,5:84
+39,11:88
+49,4:99
+*E

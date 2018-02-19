@@ -1,0 +1,46 @@
+Non-Query Return = 0
+********************************
+Non-Query Return = 0
+********************************
+Non-Query Return = 0
+********************************
+Non-Query Return = 0
+********************************
+Non-Query Return = 1
+********************************
+Non-Query Return = 1
+********************************
+Non-Query Return = 1
+********************************
+Non-Query Return = 1
+********************************
+Non-Query Return = 1
+********************************
+Non-Query Return = 1
+********************************
+Non-Query Return = 1
+********************************
+Non-Query Return = 1
+********************************
+num_rows=5  num_cols=5
+
+Column Names = 
+COF_NAME 	SUP_ID 	PRICE 	SALES 	TOTAL 	
+Data = 
+Colombian 	101 	7.99 	0 	0 	
+French_Roast 	49 	8.99 	0 	0 	
+Espresso 	150 	9.99 	0 	0 	
+Colombian_Decaf 	101 	8.99 	0 	0 	
+French_Roast_Decaf 	49 	9.99 	0 	0 	
+
+********************************
+num_rows=3  num_cols=6
+
+Column Names = 
+SUP_ID 	SUP_NAME 	STREET 	CITY 	STATE 	ZIP 	
+Data = 
+49 	Superior Coffee 	1 Party Place 	Mendocino 	CA 	95460 	
+101 	Acme, Inc. 	99 Market Street 	Groundsville 	CA 	95199 	
+150 	The High Ground 	100 Coffee Lane 	Meadows 	CA 	93966 	
+
+********************************

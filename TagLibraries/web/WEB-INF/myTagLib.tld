@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd" version="2.0">
+
+  <tlib-version>1.2</tlib-version>
+  <uri>http://wccnet.edu/chasselb/simpleTags</uri>
+
+  <tag>
+    <description>worst use of a custom tag</description>
+    <name>simple1</name>
+    <tag-class>tlds.SimpleTagTest1</tag-class>
+    <body-content>empty</body-content>
+  </tag>
+
+<tag>
+      <description>marginally better use of custom tag</description>
+      <name>simple2</name>
+      <tag-class>tlds.SimpleTagTest2</tag-class>
+      <body-content>scriptless</body-content>
+</tag>
+
+<tag>
+      <description>Beginning to look useful</description>
+      <name>simple4</name>
+      <tag-class>tlds.SimpleTagTest4</tag-class>
+      <body-content>scriptless</body-content>
+</tag>
+
+<tag>
+      <description>Pretty cool ... I think this stuff is going to be useful</description>
+      <name>simple5</name>
+      <tag-class>tlds.SimpleTagTest5</tag-class>
+      <body-content>scriptless</body-content>
+      
+      <attribute>
+        <name>movieList</name>
+        <required>true</required>
+        <rtexprvalue>true</rtexprvalue>
+      </attribute>
+</tag>  
+
+ <tag>
+      <description>Flexible Select Statement</description>
+      <name>select</name>
+      <tag-class>tlds.SelectTagHandler</tag-class>
+      <body-content>empty</body-content>
+      
+      <attribute>
+        <name>optionsList</name>
+        <type>java.util.List</type>
+        <required>true</required>
+        <rtexprvalue>true</rtexprvalue>
+      </attribute>
+      <attribute>
+        <name>name</name>
+        <required>true</required>
+      </attribute>
+
+      <dynamic-attributes>true</dynamic-attributes>
+
+  </tag>
+  
+</taglib>

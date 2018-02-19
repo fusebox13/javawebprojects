@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Servlet Example1</title>
+    </head>
+    <body>
+        <h1>Servlet Example1</h1>
+        <form method ="post" action="ServletFirst">
+            Full Name: <input type="text" name="fullName" size="60"/>
+            
+            <br/>Are  you a WCC Student: <input type="checkbox" name="wccStudent" value="yes" />
+            
+            <br/>Gender: <input type="radio" name="gender" value="male" />male  
+            <input type="radio"  name="gender" value="female" />female 
+            
+            <br/>Enter what class you are in:
+            <select name="classYear">
+                <option value="freshman"> Freshman
+                <option value="sophmore"> Sophmore
+                <option value="junior">   Junior
+                <option value="senior">   Senior
+            </select>
+            
+            <br/>Check any of the properties that apply:
+            <input type="checkbox" name="properties" value="smart" /> Smart 
+            <input type="checkbox" name="properties" value="tall" /> Tall 
+            <input type="checkbox" name="properties" value="strong" /> Strong 
+            <input type="checkbox" name="properties" value="reliable" /> Reliable 
+            
+            <br/>Enter in any additional Information:
+            <br/><textarea name="information" rows="5" cols="65">
+            </textarea>
+            
+            <br/><input type="submit" value="Submit Information" />
+            
+        </form>
+        <a href="ServletFirst?fullName=Clem+Hasselbach&wccStudent=yes&gender=male&classYear=senior&properties=smart&properties=tall&properties=strong&properties=reliable&information=++++++++++++Do+you+give+out+coupons.%0D%0AI+am+a+big+coupon+collector.%0D%0AThanks.">
+     Link with filled in data</a>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+
+<html>
+    <head>
+        <title>JH1 Homework Question #4</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <img src="sunset.jpg">
+        <hr>
+        
+        <h3>Common words associated with this image</h3>
+        <table border="1">
+            <tr>
+                <td>Cowboy</td>
+                <td>Horse</td>
+                <td>Sunset</td>
+            </tr>
+            
+            <tr>
+                <td>Silhouette</td>
+                <td>Mesa</td>
+                <td>Desert</td>
+            </tr>
+        </table>
+        <hr>
+        
+        <form action="doit">
+            <h3>Describe this image in one word</h3>
+            <input type="text" name="imageDescription" maxlength ="30" size ="30" />
+            <br>
+            
+            <input type="checkbox" name="areYouDone" value="done" />Click Here When Done
+            <hr>
+            
+            <h3>Do you like this image?</h3>
+            <input type="radio" name="like" value="yes" />Yes
+            <input type="radio" name="like" value="no" />No
+            <input type="radio" name="like" value="notSure" />Not Sure
+            <hr>
+            
+            <h3>Rate This Image</h3>
+            <select name="rating" size ="5">
+                <option value="5"> 5 Stars
+                <option value="4"> 4 Stars
+                <option value="3"> 3 Stars
+                <option value="2"> 2 Stars
+                <option value="1"> 1 Star
+            </select>
+            <hr>
+            
+            <h3>Comments:</h3>
+            <textarea name="comments" rows="6" cols="30">
+            </textarea>
+            <br>
+            <input type="submit" value="Submit"/>
+        </form>   
+    </body>
+</html>

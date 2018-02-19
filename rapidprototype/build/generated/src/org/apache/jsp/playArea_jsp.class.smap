@@ -1,0 +1,19 @@
+SMAP
+playArea_jsp.java
+JSP
+*S JSP
+*F
++ 0 playArea.jsp
+playArea.jsp
+*L
+5,12:78
+16:11
+16:90
+17:91,3
+18:94
+19,3:96
+21,2:99
+23:101,3
+24,5:104
+29,31:13
+*E
